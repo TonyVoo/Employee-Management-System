@@ -1,6 +1,6 @@
 ## 👨‍💼Employee Management System
 
-📌##Overview
+## 📌Overview
 
 The Employee Management System is a web-based application designed to efficiently manage employee records, including employee details, departments, and roles. The system provides a user-friendly interface built with React for the frontend and a robust backend powered by Spring Boot.
 
