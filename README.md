@@ -1,68 +1,117 @@
-Employee Management System
+👨‍💼Employee Management System
 
-Overview
+📌Overview
 
 The Employee Management System is a web-based application designed to efficiently manage employee records, including employee details, departments, and roles. The system provides a user-friendly interface built with React for the frontend and a robust backend powered by Spring Boot.
 
-Features
+✨Features
 
-Employee Management: Create, Read, Update, and Delete (CRUD) employee records.
+✅Employee Management: Create, Read, Update, and Delete (CRUD) employee records.
 
-Department Management: Assign employees to departments.
+🏢Department Management: Assign employees to departments.
 
-Role-Based Access: Admin and Employee roles for restricted access.
+🔐Role-Based Access: Admin and Employee roles for restricted access.
 
-Authentication & Authorization: Secure login and role-based access control.
+🔑Authentication & Authorization: Secure login and role-based access control.
 
-Search & Filter: Search employees by name, department, and role.
+🔍Search & Filter: Search employees by name, department, and role.
 
-RESTful API: Backend API built with Spring Boot.
+🌐RESTful API: Backend API built with Spring Boot.
 
-Responsive UI: Designed for desktop and mobile compatibility.
+📱Responsive UI: Designed for desktop and mobile compatibility.
 
-Technologies Used
+🛠Technologies Used
 
-Frontend (React)
+🎨Frontend (React)
 
-React.js
+⚛️React.js
 
-React Router
+🚏React Router
 
-Redux (for state management)
+🗂Redux (for state management)
 
-Axios (for API calls)
+📡Axios (for API calls)
 
-Bootstrap / Tailwind CSS (for styling)
+🎨Bootstrap / Tailwind CSS (for styling)
 
-Backend (Spring Boot)
+⚙️Backend (Spring Boot)
 
-Spring Boot (Java)
+☕Spring Boot (Java)
 
-Spring Security (for authentication and authorization)
+🔒Spring Security (for authentication and authorization)
 
-Spring Data JPA (for database management)
+🗃Spring Data JPA (for database management)
 
-MySQL / PostgreSQL (Database)
+🛢MySQL / PostgreSQL (Database)
 
-Hibernate (ORM framework)
+🚀Installation Guide
 
-Installation Guide
-
-Prerequisites
+📋Prerequisites
 
 Ensure you have the following installed:
 
-Node.js (for React)
+🖥Node.js (for React)
 
-Java 17+ (for Spring Boot)
+☕ava 17+ (for Spring Boot)
 
-MySQL/PostgreSQL (Database)
+🗄ySQL/PostgreSQL (Database)
 
 Setup Backend (Spring Boot)
 
-Clone the repository:
+1. Clone the repository:
 ```bash
 https://github.com/TonyVoo/Employee-Management-System.git
 cd Employee-Management-System/backend
 ```
 
+2. Configure database in application.properties:
+spring.datasource.url=jdbc:postgresql://localhost:5432/employee_db
+spring.datasource.username=root
+spring.datasource.password=yourpassword
+
+3. Build and run the application:
+```bash
+mvn clean install
+mvn spring-boot:run
+```
+Setup Frontend (React)
+
+1. Navigate to frontend directory:
+```bash
+cd ../frontend
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+3. Start the development server:
+```bash
+npm start
+```
+
+📌Usage
+
+Run the backend and frontend as per the setup guide.
+
+Open http://localhost:3000/ in your browser.
+
+Login as an admin to manage employees.
+
+Regular employees can view their details but have limited access.
+
+🤝Contributing
+
+If you want to contribute:
+
+Fork the repository
+
+Create a new branch (feature-xyz)
+
+Commit changes and push to your branch
+
+Create a Pull Request
+
+📜 License
+
+This project is licensed under the MIT License.
