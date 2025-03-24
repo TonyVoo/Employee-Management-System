@@ -1,4 +1,9 @@
-👨‍💼##Employee Management System
+👨‍💼## Employee Management System
+1. Intellij (Community/ Ultimate Edition)
+2. PostgreSQL + pgAdmin
+3. Any web browser (Google, Microsoft Edge, Firefox)
+4. Github
+5. Docker
 
 📌##Overview
 
