@@ -4,7 +4,7 @@
 
 The Employee Management System is a web-based application designed to efficiently manage employee records, including employee details, departments, and roles. The system provides a user-friendly interface built with React for the frontend and a robust backend powered by Spring Boot.
 
-✨##Features
+## ✨Features
 
 ✅Employee Management: Create, Read, Update, and Delete (CRUD) employee records.
 
@@ -20,7 +20,7 @@ The Employee Management System is a web-based application designed to efficientl
 
 📱Responsive UI: Designed for desktop and mobile compatibility.
 
-🛠##Technologies Used
+## 🛠Technologies Used
 
 🎨Frontend (React)
 
@@ -34,7 +34,7 @@ The Employee Management System is a web-based application designed to efficientl
 
 🎨Bootstrap / Tailwind CSS (for styling)
 
-⚙️##Backend (Spring Boot)
+## ⚙️Backend (Spring Boot)
 
 ☕Spring Boot (Java)
 
@@ -44,7 +44,7 @@ The Employee Management System is a web-based application designed to efficientl
 
 🛢MySQL / PostgreSQL (Database)
 
-🚀##Installation Guide
+## 🚀Installation Guide
 
 📋Prerequisites
 
@@ -100,7 +100,7 @@ Login as an admin to manage employees.
 
 Regular employees can view their details but have limited access.
 
-🤝##Contributing
+## 🤝Contributing
 
 If you want to contribute:
 
@@ -112,6 +112,6 @@ Commit changes and push to your branch
 
 Create a Pull Request
 
-📜##License
+## 📜License
 
 This project is licensed under the MIT License.
