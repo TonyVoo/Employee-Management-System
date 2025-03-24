@@ -1,0 +1,120 @@
+/* Container styling */
+.settings-feature-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+.settings-feature-container h2,
+.settings-feature-container h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.settings-feature-container h3 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+/* Form styling */
+.settings-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+.settings-form label {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+/* Input styling */
+.settings-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.settings-form input:focus:not([readonly]) {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.settings-form input[readonly] {
+  background-color: #e9ecef;
+  border-color: #ced4da;
+}
+
+/* Button styling */
+.settings-form button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.settings-form button:hover {
+  background-color: #0056b3;
+}
+
+.settings-form button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.settings-message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.settings-message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.settings-message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .settings-feature-container {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .settings-form input {
+    font-size: 14px;
+  }
+
+  .settings-form button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

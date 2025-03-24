@@ -1,0 +1,151 @@
+/* Scoped container for EmployeeComponent */
+.employee-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Scoped card styling */
+.employee-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: none;
+  padding: 2rem;
+  width: 100%;
+  max-width: 600px; /* Limits card width for better readability */
+}
+
+/* Scoped heading styling */
+.employee-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 2rem;
+  background: linear-gradient(90deg, #6b48ff, #00ddeb);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+/* Scoped form label */
+.employee-form-label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  display: block;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+/* Scoped input fields */
+.employee-form-input {
+  border: none;
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.05), inset -4px -4px 8px rgba(255, 255, 255, 0.8);
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #333;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.employee-form-input:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(107, 72, 255, 0.5);
+  background: #fff;
+}
+
+/* Scoped error state */
+.employee-form-input.is-invalid {
+  box-shadow: 0 0 10px rgba(255, 77, 79, 0.5);
+  background: rgba(255, 245, 245, 0.9);
+}
+
+.employee-invalid-feedback {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  color: #ff4d4f;
+  margin-top: 0.25rem;
+}
+
+/* Scoped submit button */
+.employee-btn-submit {
+  background: linear-gradient(45deg, #00ddeb, #6b48ff);
+  border: none;
+  border-radius: 50px;
+  padding: 0.75rem 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  display: block;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.employee-btn-submit:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(107, 72, 255, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .employee-container {
+    padding: 1rem;
+  }
+
+  .employee-card {
+    padding: 1.5rem;
+  }
+
+  .employee-title {
+    font-size: 2rem;
+  }
+
+  .employee-form-input {
+    padding: 0.65rem 0.85rem;
+    font-size: 0.95rem;
+  }
+
+  .employee-btn-submit {
+    padding: 0.65rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .employee-form-label {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .employee-card {
+    margin: 0 1rem;
+  }
+
+  .employee-title {
+    font-size: 1.8rem;
+  }
+
+  .form-group {
+    margin-bottom: 1.25rem;
+  }
+}
